@@ -1,45 +1,42 @@
 # php-package
 
-[![Github Actions Status](https://github.com/hexlet-boilerplates/php-package/workflows/PHP%20CI/badge.svg)](https://github.com/hexlet-boilerplates/php-package/actions)
-[![Code Climate](https://codeclimate.com/github/hexlet-boilerplates/php-package/badges/gpa.svg)](https://codeclimate.com/github/hexlet-boilerplates/php-package)
-[![Issue Count](https://codeclimate.com/github/hexlet-boilerplates/php-package/badges/issue_count.svg)](https://codeclimate.com/github/hexlet-boilerplates/php-package/issues)
-[![Test Coverage](https://codeclimate.com/github/hexlet-boilerplates/php-package/badges/coverage.svg)](https://codeclimate.com/github/hexlet-boilerplates/php-package/coverage)
+PHP
 
-## Prerequisites
+Language: **English** | [Русский](README.ru.md)
 
-* Linux, Macos, WSL
-* PHP >=8.2
-* Xdebug
-* Make
-* Git
+## Problem
+- This project solves a practical development or automation task.
+- The goal is to provide a clear implementation that is easy to run and extend.
 
-## Addons
-
-Use <http://psysh.org/>
+## Stack
+- Primary language: Not specified
+- Project-specific libraries and tools (see source files)
 
 ## Setup
-
 ```bash
-git clone https://github.com/hexlet-boilerplates/php-package.git
+git clone https://github.com/xelvhk/php-package
 cd php-package
-make install
+# install dependencies (if present)
+# copy .env.example to .env (if present)
+# run the project
 ```
 
-## Run tests
+## Architecture
+- Entry points: application scripts and main modules in the repository root.
+- Core logic: domain-specific modules grouped by responsibility.
+- Data layer: local files/database/adapters depending on project scope.
 
-```sh
-make test
-```
+## Demo
+- Add screenshots/GIF or usage examples for key flows.
+- If deployed, add production URL.
 
-## Test Coverage
+## Roadmap
+- [ ] Add/refresh setup instructions for zero-friction onboarding.
+- [ ] Add/update tests for critical paths.
+- [ ] Improve docs and examples for real-world usage.
 
-* see `phpunit.xml`
-* See [codeclimate documentation](https://docs.codeclimate.com/docs/configuring-test-coverage)
-* add `CC_TEST_REPORTER_ID` to workflow as SECRETS ENV VARIABLE (for safety)
+## Status
+Active development
 
-[![Hexlet Ltd. logo](https://raw.githubusercontent.com/Hexlet/assets/master/images/hexlet_logo128.png)](https://hexlet.io/?utm_source=github&utm_medium=link&utm_campaign=php-package)
-
-This repository is created and maintained by the team and the community of Hexlet, an educational project. [Read more about Hexlet](https://hexlet.io/?utm_source=github&utm_medium=link&utm_campaign=php-package).
-
-
-See most active contributors on [hexlet-friends](https://friends.hexlet.io/).
+## License
+GNU AGPLv3. See [LICENSE](LICENSE).
